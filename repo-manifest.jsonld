@@ -95,8 +95,9 @@
     {
       "@id": "https://repolex.ai/r/serde-rs/serde/commit/7511eeae7b95f2b4ba36ecb97e3a0b48fe346831",
       "git:hexsha": "7511eeae7b95f2b4ba36ecb97e3a0b48fe346831",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v0.5.3"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v0.5.3",
+      "repolex:parsedAt": "2026-03-27T02:03:49.409722+00:00"
     },
     {
       "@id": "https://repolex.ai/r/serde-rs/serde/commit/a1bd0c16675c37c7b81d5907dc059457b93971e3",
