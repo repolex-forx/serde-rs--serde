@@ -1,0 +1,12 @@
+[2026-05-08T02:37:09Z] === ENRICH ITERATION 1 START | repo=serde-rs/serde sha=a866b336 ===
+[2026-05-08T02:37:09Z] [iter=1] PHASE START: enrich repo=serde-rs/serde sha=a866b336 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a866b336-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a866b336f14aa57a07f0d0be9f8762746e64ecb4.nq.gz
+[2026-05-08T02:37:09Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-05-08T02:37:16Z] [iter=1] AST store loaded triples=968282 load_secs=7 mem_mb=862 MB
+[2026-05-08T02:37:16Z] [iter=1] Step 2: Finding LSP targets mem_mb=862 MB
+[2026-05-08T02:37:16Z] [iter=1] LSP targets found call_sites=0 imports=0 extends=0 implements=0 secs=0
+[2026-05-08T02:37:16Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=862 MB
+[2026-05-08T02:37:20Z] [iter=1] Position index built positions=72338 nodes_with_types=80852 secs=4 mem_mb=862 MB
+[2026-05-08T02:37:20Z] [iter=1] Step 3: Starting LSP resolution mem_mb=862 MB already_completed_types=[] already_completed_files=0
+[2026-05-08T02:38:06Z] [iter=1] Step 5: Writing final enrichment file triples=17000
+[2026-05-08T02:38:06Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/a866b336f14aa57a07f0d0be9f8762746e64ecb4.nq.gz size_kb=283
+[2026-05-08T02:38:06Z] [iter=1] PHASE END: enrich elapsed_s=57 elapsed_min=1.0 total_triples=17000
