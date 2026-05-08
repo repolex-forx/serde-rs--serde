@@ -6577,10 +6577,10 @@
         "blob/f63646b6e36f7b2d519a6653925a32c7d90573e8.nq.gz"
       ],
       "ast": [
-        "aggregate/ast/a866b336f14aa57a07f0d0be9f8762746e64ecb4.nq.gz"
+        "aggregate/ast/a866b336f14aa57a07f0d0be9f8762746e64ecb4"
       ],
       "lsp": "aggregate/lsp/a866b336f14aa57a07f0d0be9f8762746e64ecb4.nq.gz",
-      "repolex": "aggregate/repolex/a866b336f14aa57a07f0d0be9f8762746e64ecb4.nq.gz"
+      "repolex": "aggregate/repolex/a866b336f14aa57a07f0d0be9f8762746e64ecb4"
     }
   ],
   "commit": "commit/commit.nq.gz",
