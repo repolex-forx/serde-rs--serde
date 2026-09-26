@@ -7372,7 +7372,57 @@
       ],
       "lsp": "aggregate/lsp/7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8.nq.gz",
       "repolex": "aggregate/repolex/7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8/chunk-001.nq.gz",
-      "dep": "dep/7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8.nq.gz"
+      "dep": "dep/7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "serde_test",
+          "ecosystem": "CARGO",
+          "version": "1.0.177",
+          "githubOrg": "serde-rs",
+          "githubRepo": "test",
+          "githubCommit": "bbb18e2db032ec5da07e07368e4d55647cf10229",
+          "githubTag": "1.0.177",
+          "githubUrl": "https://github.com/serde-rs/test",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_test-1.0.177/src/token.rs"
+        },
+        {
+          "packageName": "syn",
+          "ecosystem": "CARGO",
+          "version": "3.0.6",
+          "githubOrg": "dtolnay",
+          "githubRepo": "syn",
+          "githubCommit": "559cab55ef0c644f77660840edc3620d0d99d3d7",
+          "githubTag": "3.0.6",
+          "githubUrl": "https://github.com/dtolnay/syn",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-3.0.6/src/token.rs"
+        },
+        {
+          "packageName": "proc-macro2",
+          "ecosystem": "CARGO",
+          "version": "1.0.107",
+          "githubOrg": "dtolnay",
+          "githubRepo": "proc-macro2",
+          "githubCommit": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+          "githubTag": "1.0.107",
+          "githubUrl": "https://github.com/dtolnay/proc-macro2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.107/src/lib.rs"
+        },
+        {
+          "packageName": "quote",
+          "ecosystem": "CARGO",
+          "version": "1.0.47",
+          "githubOrg": "dtolnay",
+          "githubRepo": "quote",
+          "githubCommit": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+          "githubTag": "1.0.47",
+          "githubUrl": "https://github.com/dtolnay/quote",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.47/src/lib.rs"
+        }
+      ]
     }
   ],
   "commit": "commit/commit.nq.gz",

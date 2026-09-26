@@ -1,0 +1,23 @@
+[2026-09-26T07:07:53Z] === ENRICH ITERATION 2 START | repo=serde-rs/serde sha=7fc3b4c3 ===
+[2026-09-26T07:07:53Z] [iter=2] PHASE START: enrich repo=serde-rs/serde sha=7fc3b4c3 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/7fc3b4c3-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8.nq.gz
+[2026-09-26T07:07:53Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-26T07:08:01Z] [iter=2] AST store loaded triples=1098920 load_secs=8 mem_mb=885 MB
+[2026-09-26T07:08:01Z] [iter=2] Step 2: Finding LSP targets mem_mb=885 MB
+[2026-09-26T07:08:02Z] [iter=2] LSP targets found call_sites=4479 imports=0 extends=0 implements=84 secs=1
+[2026-09-26T07:08:02Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=885 MB
+[2026-09-26T07:08:08Z] [iter=2] Position index built positions=77272 nodes_with_types=91029 secs=5 mem_mb=885 MB
+[2026-09-26T07:08:08Z] [iter=2] Step 3: Starting LSP resolution mem_mb=885 MB already_completed_types=[] already_completed_files=0
+[2026-09-26T07:08:08Z] [iter=2] Resolving target type target_type=call_site count=4479
+[2026-09-26T07:13:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=5.4 files_done=1 resolved=872 errors=626 current=serde_derive/src/internals/receiver.rs
+[2026-09-26T07:15:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=3 resolved=1153 errors=885 current=serde_derive/src/internals/attr.rs
+[2026-09-26T07:19:05Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=11.2 files_done=4 resolved=1303 errors=1386 current=serde_derive/src/internals/ast.rs
+[2026-09-26T07:21:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=13.2 files_done=6 resolved=1619 errors=1643 current=serde_derive/src/bound.rs
+[2026-09-26T07:23:56Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=16.1 files_done=8 resolved=1791 errors=2021 current=serde_derive/src/de.rs
+[2026-09-26T07:25:23Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=17.5 files_done=9 resolved=1924 errors=2210 current=serde_derive/src/de/enum_adjacently.rs
+[2026-09-26T07:26:03Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=18.2 files_done=13 resolved=2018 errors=2296 current=serde_derive/src/pretend.rs
+[2026-09-26T07:26:22Z] [iter=2] Target type resolved target_type=call_site resolved=2058 errors=2335 secs=1094 mem_mb=885 MB
+[2026-09-26T07:26:22Z] [iter=2] Resolving target type target_type=implements_clause count=84
+[2026-09-26T07:26:30Z] [iter=2] Target type resolved target_type=implements_clause resolved=83 errors=0 secs=8 mem_mb=885 MB
+[2026-09-26T07:26:57Z] [iter=2] Step 5: Writing final enrichment file triples=48607
+[2026-09-26T07:26:57Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8.nq.gz size_kb=913
+[2026-09-26T07:26:57Z] [iter=2] PHASE END: enrich elapsed_s=1145 elapsed_min=19.1 total_triples=48607
